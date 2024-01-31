@@ -340,7 +340,6 @@ ol {
 	left: 0;
 	top: 0;
 	width: 100%;
-	padding: 0 15px;
 	padding-top: 55px;
 	z-index: 99;
 }
@@ -353,8 +352,9 @@ ol {
 .nav-menu {
 	text-align: center;
 	background-color: #000000a1;
-	max-width: 100%;
+	flex-wrap: wrap;
 	border-radius: 3cm;
+	width: 23cm;
 }
 
 .nav-menu ul li {
